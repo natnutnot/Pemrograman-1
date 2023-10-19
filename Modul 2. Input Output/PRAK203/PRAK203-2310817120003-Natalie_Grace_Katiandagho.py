@@ -1,0 +1,5 @@
+berapa = input()
+apa_ya = berapa.split()
+a, b, i, j, x, y = map(float, apa_ya)
+total = (a - b) * i / j - (x + y)
+print(f"{total:.3f}")
